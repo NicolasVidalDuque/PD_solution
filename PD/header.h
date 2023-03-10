@@ -39,9 +39,7 @@ struct solution {
     solution(int a) : z(a), kpi1(-1), kpi2(-1) {}
 };
 
-void newFunction() {
-    cout << 'X';
-}
+
 void read_Lecture_Lecture(map<int, set<int>>& data, string path) {
     ifstream input_file(path);
     string line;
